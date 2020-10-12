@@ -1,0 +1,82 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	background-image: image("RamsBackground.jpg");
+	background-repeat: no-repeat;
+	font-family: "Helvetica Neue";
+	margin-bottom: 10%;
+	margin-left: 2%;
+}
+	
+h6{
+	margin-left: -10%;
+	
+}	
+
+p{
+	margin-left: -15%; 
+}
+
+h1{
+	color: #E6E6E6;
+	margin-left: 41.15%;
+	font-size: 100px;
+	margin-bottom: -2%;
+	
+	
+}
+
+h2{
+	color: #FFFF00;
+	font-weight: lighter;
+	margin-left: 64.5%;
+	
+	
+}
+
+h3{
+	color: #FFFF00;
+	margin-right: 95%;
+	font-size: 70px;
+	font-weight: lighter;
+	margin-bottom: -9.5%;
+	text-align: center;
+	
+}
+
+h4{
+	color: #000000;
+	margin-left: 7%;
+	font-size: 20px;
+	margin-bottom: 1%;
+}
+
+h5{
+	color: #4D4D4D;
+	margin-left: 7%;
+	margin-bottom: 0%;
+	margin-top: 0%;
+}
+
+br{
+	margin-bottom: -1%;
+}
+
+p{
+	margin-left: -15%; 
+}
+
+.square{
+	width: 100px;
+	height: 100px;
+	background-color: black;
+}
+
+@media only screen and (max-width: 800px) {
+	
+	width: 200px;
+	heigh: 200px;
+	background-color: #999999;
+	
+}
