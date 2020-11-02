@@ -1,0 +1,485 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	background-color: #003F1A;
+	animation-name: body;
+	animation-duration: 5s;
+	animation-delay: 2s;
+	animation-iteration-count: infinite;
+}
+
+  @keyframes body {
+	0%   {background-color:#003C11; left:668px; top:390px;}
+  	25%  {background-color:#003C11; left:668px; top:390px;}
+  	50%  {background-color:#000000; left:668px; top:400px;}
+ 	75%  {background-color:#000000; left:668px; top:400px;}
+  	100% {background-color:#003C11; left:668px; top:390px;}
+}
+
+.chungus {
+	position: absolute;
+	top: 51px;
+	left: 123px;
+	animation-name: chungus;
+	animation-duration: 5s;
+	animation-delay: 2s;
+	animation-iteration-count: infinite;
+}
+
+ @keyframes chungus {
+	0%   {filter: grayscale(0%); left:123px; top:51px;}
+  	25%  {filter: grayscale(0%); left:123px; top:51px;}
+  	50%  {filter: grayscale(100%); left:123px; top:51px;}
+ 	75%  {filter: grayscale(100%); left:123px; top:51px;}
+	100% {filter: grayscale(0%); left:123px; top:51px;}
+	 
+	0%   {filter: invert(0%); left:123px; top:51px;}
+  	25%  {filter: invert(0%); left:123px; top:51px;}
+  	50%  {filter: invert(100%); left:123px; top:51px;}
+ 	75%  {filter: invert(100%); left:123px; top:51px;}
+	100% {filter: invert(0%); left:123px; top:51px;}
+	 
+	0%   {filter: hue-rotate(0deg); left:123px; top:51px;}
+  	25%  {filter: hue-rotate(0deg); left:123px; top:51px;}
+  	50%  {filter: hue-rotate(337deg); left:123px; top:51px;}
+ 	75%  {filter: hue-rotate(51deg); left:123px; top:51px;}
+	100% {filter: hue-rotate(0deg); left:123px; top:51px;} 
+}
+
+.rotate{
+	position: absolute;
+	transform: rotate(10deg);
+	top: -91px;
+	left: 25px;
+}
+
+.a {
+	 position: absolute;
+	 top: 75px;
+	 left: 400.5px;
+	 width: 0;
+	 height: 0;
+	 border-style: solid;
+	 border-width: 52px 91px 397px 0;
+	 border-color: transparent #D34A24 transparent transparent;
+	 animation-name: a;
+	 animation-duration: 5s;
+	 animation-delay: 2s;
+	 animation-iteration-count: infinite;
+}
+    
+ @keyframes a{
+	0%   {background-color:transparent #D34A24 transparent transparent; left:400.5px; top:75px;}
+  	25%  {background-color:transparent #D34A24 transparent transparent; left:400.5px; top:75px;}
+  	50%  {background-color:transparent #84FF95 transparent transparent; left:400.5px; top:75px;}
+ 	75%  {background-color:transparent #84FF95 transparent transparent; left:400.5px; top:75px;}
+  	100% {background-color:transparent #D34A24 transparent transparent; left:400.5px; top:75px;}
+}
+
+
+.b {
+	position: absolute;
+	transform: scaleX(1.0125);
+	top: 75px;
+    left: 491px;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 52px 0 338px 62px;
+	border-color: transparent transparent transparent #F17224;
+}
+
+.c {
+	position: absolute;
+	top: -16px;
+	left: 596.5px;
+	transform: rotate(-48.5deg);
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 23px 27px 171px 0;
+	border-color: transparent #F15A24 transparent transparent;
+}
+
+.d {
+	position: absolute;
+	top: -19px;
+	left: 446.7px;
+	transform: scaleX(.38) scaleY(.72);
+	width: 0px;
+	height: 0;
+	border-style: solid;
+	border-width: 90px 145px 90px 0;
+	border-color: transparent #F15A24 transparent transparent;
+	
+}
+
+.e {
+	position: absolute;
+	top: -70px;
+	left: 435px;
+	transform: rotate(-120deg) scaleY(.75);
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 28px 45px 232px 0;
+	border-color: transparent #F15A24 transparent transparent;
+	
+}
+
+.f{
+	position: absolute;
+	top: 40px;
+	left: 546px;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 95px 0 0 145px;
+	border-color: transparent transparent transparent #F17C24;
+}
+
+.g{ 
+	position: absolute;
+	transform: rotate(57deg) scale(1.07) scaleY(.97);
+	top: -22px;
+	left: 466px;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 75px 0 99.5px 23px;
+	border-color: transparent transparent transparent #CC4A24;
+}
+
+
+.scale{
+	position: absolute;
+	transform: scale(.55) scaleX(1.10) scaleY(1.25);
+	top: 74px;
+	left: 216px;
+}
+
+.h{
+	position: absolute;
+	transform: rotate(30deg) scale(.75);
+	top: 120px;
+	left: 500px;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 23px 46px 151px 0;
+	border-color: transparent #FEEFE5 transparent transparent;
+}
+
+.ginger {
+	position: absolute;
+	top: -18px;
+	left: 15px;
+	transform: scaleY(1.15);	
+}
+
+.rojo {
+	position: absolute;
+	top: -18px;
+	left: 1225px;
+	transform: scaleY(1.15) scaleX(-1);
+}
+
+.i {
+	position: absolute;
+	top: 290px;
+	left: 515px;
+	transform: scale(1.1);
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 245px 98px 0 0;
+	border-color: #F17C24 transparent transparent transparent;
+}
+
+.j{
+	position: absolute;
+	top: 280px;
+	left: 550px;
+	transform: scale(1.1);
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 245px 98px 0 0;
+	border-color: #F15A24 transparent transparent transparent;
+	
+}
+
+.strand {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+.strain {
+	position: absolute;
+	top: 0px;
+	left: 1240px;
+	transform: scaleX(-1);
+}
+
+.adjust{
+	position: absolute;
+	top: 100px;
+	left: 100px;
+	transform: scaleX(1.3) scaleY(1.2) scale(.75);
+	
+}
+
+
+
+
+.eye {
+	  position: absolute;
+	  top: 315px;
+	  left: 641px;
+	  width: 51px;
+      height: 30px;
+      background: #FFFFFF;
+      border-radius: 50%;
+	  animation-name: eye;
+	  animation-duration: 5s;
+	  animation-delay: 2s;
+	  animation-iteration-count: infinite;
+}
+
+
+@keyframes eye {
+	0%   {background-color:#FFFFFF; left:640.5px; top:315px;}
+  	25%  {background-color:#FFFFFF; left:640.5px; top:315px;}
+  	50%  {background-color:#000000; left:640.5px; top:315px;}
+ 	75%  {background-color:#000000; left:640.5px; top:315px;}
+  	100% {background-color:#FFFFFF; left:640.5px; top:315px;}
+}
+	
+	
+
+.eye2 {
+	  position: absolute;
+	  top: 323px;
+	  left: 657px;
+	  width: 15px;
+      height: 15px;
+      background: #597AC2;
+      border-radius: 50%;
+	  animation-name: eye2;
+	  animation-duration: 5s;
+	  animation-delay: 2s;
+	  animation-iteration-count: infinite;
+}
+
+
+@keyframes eye2 {
+	0%   {background-color:#597AC2; left:657px; top:323px;}
+  	25%  {background-color:#597AC2; left:657px; top:323px;}
+  	50%  {background-color:#84FF95; left:657px; top:323px;}
+ 	75%  {background-color:#84FF95; left:657px; top:323px;}
+  	100% {background-color:#597AC2; left:657px; top:323px;}
+}
+ 
+.eye3 {
+	  position: absolute;
+	  top: 327px;
+	  left: 661.5px;
+	  width: 6px;
+      height: 6px;
+      background: #000000;
+      border-radius: 50%;
+}
+
+.eye4 {
+	position: absolute;
+	width:100px;
+	height: 100px;
+	background-color: transparent;
+	margin:auto;
+	top: 690px;
+	left: 616px;
+	right:0;
+	bottom:0;
+	box-shadow: 25px 10px 0px 0px #FFE0D0;
+	border-radius: 50%;
+	transform: rotate(-113deg) scale(.52);
+}
+
+.brow{
+	  position: absolute;
+	  top: 265px;
+	  left: 388px;
+	  width: 550px;
+      height: 60px;
+      transform: skew(-40deg) scale(.065) rotate(-10deg);
+      background: #C9743B;
+	  animation-name: brow;
+	  animation-duration: 5s;
+	  animation-delay: 2s;
+	  animation-iteration-count: infinite; 
+}
+
+@keyframes brow{
+	 0%   {background-color:#C9743B; left:388px; top:265px;}
+  	 25%  {background-color:#C9743B; left:388px; top:265px;}
+  	 50%  {background-color:#C9743B; left:388px; top:255px;}
+ 	 75%  {background-color:#C9743B; left:388px; top:255px;}
+  	 100% {background-color:#C9743B ; left:388px; top:265px;}
+}
+
+.sky{
+	 position: absolute;
+	 top: 0px;
+	 left: 0px;
+}
+
+.line{
+	position: absolute;
+	top: 0px;
+	left: 1405px;
+	transform: scaleX(-1);
+}
+
+.mouth2{
+	  position: absolute;
+	  top: 388px;
+	  left: 668px;
+	  width: 70px;
+      height: 30px;
+      background: #FEEFE5;
+      border-radius: 50%
+	
+}
+
+.mouth{
+	  position: absolute;
+	  top: 390px;
+	  left: 668px;
+	  width: 70px;
+      height: 30px;
+      background: #FFAED6;
+      border-radius: 50%;
+	  animation-name: mouth;
+	  animation-duration: 5s;
+	  animation-delay: 2s;
+	  animation-iteration-count: infinite;
+
+}
+
+@keyframes mouth {
+	0%   {background-color:#FFAED6; left:668px; top:390px;}
+  	25%  {background-color:#FFAED6; left:668px; top:390px;}
+  	50%  {background-color:#000000; left:668px; top:400px;}
+ 	75%  {background-color:#000000; left:668px; top:400px;}
+  	100% {background-color:#FFAED6; left:668px; top:390px;}
+	
+}
+
+.nose{
+	 position: absolute;
+	 top: 365px;
+	 left: 653px;
+	 transform: scaleX(.40) scaleY(.25);
+	 width: 0;
+	 height: 0;
+	 border-style: solid;
+	 border-width: 0 51px 35px 50px;
+	 border-color: transparent transparent #FFD4C9 transparent;
+}
+
+.nose2{
+	position: absolute;
+	top: 270px;
+	left: 670px;
+	transform: scale(.35);
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 171px 49px 0px 0;
+	border-color: transparent #FFE6D9 transparent transparent;
+}
+
+.freckle{
+	  position: absolute;
+	  top: 347px;
+	  left: 770px;
+	  transform: scale(.75);
+	  width: 6px;
+      height: 6px;
+      background: #DFABAB;
+      border-radius: 50%
+	
+}
+
+.freckle2{
+	  position: absolute;
+	  top: 355px;
+	  left: 775px;
+	  transform: scale(.5);
+	  width: 6px;
+      height: 6px;
+      background: #DFABAB;
+      border-radius: 50%
+	
+}
+
+.freckle3{
+	  position: absolute;
+	  top: 357px;
+	  left: 677px;
+	  transform: scale(.40);
+	  width: 6px;
+      height: 6px;
+      background: #DFABAB;
+      border-radius: 50%
+}
+
+	  
+
+.truth{
+	position: absolute;
+	left: -346px;
+	top: -184px;
+	transform: scale(1.5);
+}
+
+.pentagon {
+      position: absolute;
+      width: 54px;
+      box-sizing: content-box;
+      border-width: 75px 43px 0;
+      border-style: solid;
+      border-color: #FEEFE5 transparent;
+	  top: 200px;
+	  left: 550px;
+	  transform: rotate(180deg) scale(2.4) scaleX(.84) scaleY(.79);
+	  animation-name: pentagon;
+	  animation-duration: 5s;
+	  animation-delay: 2s;
+	  animation-iteration-count: infinite;
+    }
+
+
+ .pentagon:before {
+      content: "";
+      position: absolute;
+      height: 0;
+      width: 0;
+      top: -134px;
+      left: -43px;
+      border-width: 0 70px 60px;
+      border-style: solid;
+      border-color: transparent transparent #FEEFE5;
+    }
+
+
+@keyframes pentagon {
+	0%   {background-color:transparent transparent #FEEFE5; left:550px; top:200px;}
+  	25%  {background-color:transparent transparent #FEEFE5; left:550px; top:200px;}
+  	50%  {background-color:transparent transparent #FEEFE5; left:550px; top:200px;}
+ 	75%  {background-color:transparent transparent #FEEFE5; left:550px; top:200px;}
+  	100% {background-color:transparent transparent #FEEFE5; left:550px; top:200px;}
+}
+    
